@@ -2,11 +2,17 @@
 
 I need to get better at them!
 
-## Search ##
+## Algorithms ##
+
+### Search ###
 
 - Binary
 
-## Sort ##
+### Sort ###
 
 - Insertion
 - Selection
+
+## Data structures ##
+
+- Stack
