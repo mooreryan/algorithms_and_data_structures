@@ -44,6 +44,7 @@ int main(int argc, char *argv[])
   int a4[] = { 2, 1 };
   int a5[] = { 5, -3, 4 };
   int a6[] = { 3, 3, 3 };
+  int a7[] = { -3, 6, 4, 6, 7, 2, 10 };
 
   int size = 0;
 
@@ -73,6 +74,11 @@ int main(int argc, char *argv[])
   insertion_sort(a6, size);
   printf( "[ 3 3 3 ] : ");
   print_array(a6, size);
+
+  size = 7;
+  insertion_sort(a7, size);
+  printf( "[ -3 2 4 6 6 7 10 ] : ");
+  print_array(a7, size);
 
   return 0;
 }
