@@ -4,4 +4,9 @@ I need to get better at them!
 
 ## Search ##
 
-- Binary search
+- Binary
+
+## Sort ##
+
+- Insertion
+- Selection
