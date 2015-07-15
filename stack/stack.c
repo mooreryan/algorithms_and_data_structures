@@ -8,6 +8,8 @@
 
 struct Stack *create_Stack()
 {
+
+  fprintf(stderr, "Teee he hee he he, lalalala! Just made you a stack!\n");
   struct Stack *stack = malloc(sizeof(struct Stack));
   assert(stack != NULL);
 

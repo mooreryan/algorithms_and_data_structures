@@ -4,7 +4,6 @@
 #ifndef _stack_h
 #define _stack_h
 
-/* Basic Stack that can hold 10 items */
 struct Stack {
   int *items;
   int size;
@@ -13,7 +12,7 @@ struct Stack {
 
 struct Stack *create_Stack();
 void destroy_Stack(struct Stack *stack);
-void resize(struct Stack *stack);
+void double_size(struct Stack *stack);
 int pop(struct Stack *stack);
 void push(struct Stack *stack, int item);
 int is_empty(struct Stack *stack);
