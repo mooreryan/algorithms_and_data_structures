@@ -1,9 +1,9 @@
-CFLAGS=-Wall
+CFLAGS=-Wall -g
 
 stack_test: stack.o
 
 move:
-	`mv stack_test bin`
+	`rm -r bin/* && mv stack_test stack_test.dSYM bin`
 
 clean:
 	`rm bin/* *.o`
