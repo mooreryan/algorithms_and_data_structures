@@ -16,3 +16,4 @@ I need to get better at them!
 ## Data structures ##
 
 - Stack
+- Vector
